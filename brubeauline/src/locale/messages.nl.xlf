@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="constructionHeader" datatype="html">
+        <source>Under construction!</source>
+        <target>Onder constructie!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/info/info.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Title for construction card</note>
+        <note priority="1" from="meaning">Card Header</note>
+      </trans-unit>
+      <trans-unit id="constructionDescription" datatype="html">
+        <source>This page is under construction.</source>
+        <target>Deze pagina wordt nog gebouwd.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/info/info.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Text for construction card</note>
+        <note priority="1" from="meaning">Card Description</note>
+      </trans-unit>
+      <trans-unit id="constructionSecondDescription" datatype="html">
+        <source>Soon you will be able to visit this glorious page!</source>
+        <target>U kan bijna deze geweldige pagina bekijken!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/info/info.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Extra text for construction card</note>
+        <note priority="1" from="meaning">Card Second Description</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

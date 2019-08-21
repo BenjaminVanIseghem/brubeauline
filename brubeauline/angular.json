@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -44,6 +47,46 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/under-c-fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "de": {
+              "aot": true,
+              "outputPath": "dist/under-c-de/",
+              "i18nFile": "src/locale/messages.de.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "de",
+              "i18nMissingTranslation": "error"
+            },
+            "nl": {
+              "aot": true,
+              "outputPath": "dist/under-c-nl/",
+              "i18nFile": "src/locale/messages.nl.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "nl",
+              "i18nMissingTranslation": "error"
+            },
+            "es": {
+              "aot": true,
+              "outputPath": "dist/under-c-es/",
+              "i18nFile": "src/locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
+            },
+            "it": {
+              "aot": true,
+              "outputPath": "dist/under-c-it/",
+              "i18nFile": "src/locale/messages.it.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "it",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -55,6 +98,21 @@
           "configurations": {
             "production": {
               "browserTarget": "brubeauline:build:production"
+            },
+            "fr": {
+              "browserTarget": "brubeauline:build:fr"
+            },
+            "de": {
+              "browserTarget": "brubeauline:build:de"
+            },
+            "nl": {
+              "browserTarget": "brubeauline:build:nl"
+            },
+            "es": {
+              "browserTarget": "brubeauline:build:es"
+            },
+            "it": {
+              "browserTarget": "brubeauline:build:it"
             }
           }
         },
