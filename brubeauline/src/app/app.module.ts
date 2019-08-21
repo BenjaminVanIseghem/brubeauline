@@ -1,14 +1,47 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule, HttpClient} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { InfoComponent } from './info/info.component';
+import { BruggeComponent } from './brugge/brugge.component';
+import { RecensiesComponent } from './recensies/recensies.component';
+import { ContactComponent } from './contact/contact.component';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
+
+const appRoutes: Routes = [
+  {path: 'info', component: InfoComponent},
+  {path: 'brugge', component: BruggeComponent},
+  {path: 'recensies', component: RecensiesComponent},
+  {path: 'contact', component: ContactComponent},
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InfoComponent,
+    BruggeComponent,
+    RecensiesComponent,
+    ContactComponent
   ],
   imports: [
-    BrowserModule
+    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    BrowserModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
