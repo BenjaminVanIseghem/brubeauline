@@ -10,6 +10,7 @@ import { InfoComponent } from './info/info.component';
 import { BruggeComponent } from './brugge/brugge.component';
 import { RecensiesComponent } from './recensies/recensies.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -17,6 +18,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 const appRoutes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'info', component: InfoComponent},
   {path: 'brugge', component: BruggeComponent},
   {path: 'recensies', component: RecensiesComponent},
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     InfoComponent,
     BruggeComponent,
     RecensiesComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
