@@ -1,0 +1,33 @@
+img{
+    height: 100vh;
+    width: 100vw;
+  }
+.carousel-inner {
+    height: 100vh;
+}
+
+.overlay { 
+    position:absolute;
+    z-index:12;
+    top:20%;
+    left:0;
+    width:100%;
+    text-align:center;
+  }
+
+h1 {
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    position: absolute;
+    left: 30%;
+    width: 40vw;
+    background-color: rgb(2, 2, 0, 0.6);
+    font-size: 90px;
+}
+
+.card-body {
+    color:#c0cc55;
+}

@@ -4,6 +4,7 @@ import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { RouterModule, Routes } from '@angular/router';
+import { NguCarouselModule } from '@ngu/carousel';
 
 import { AppComponent } from './app.component';
 import { InfoComponent } from './info/info.component';
@@ -11,6 +12,7 @@ import { BruggeComponent } from './brugge/brugge.component';
 import { RecensiesComponent } from './recensies/recensies.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -32,12 +34,14 @@ const appRoutes: Routes = [
     BruggeComponent,
     RecensiesComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    ImageCarouselComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
     BrowserModule,
     HttpClientModule,
+    NguCarouselModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
