@@ -5,6 +5,7 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { RouterModule, Routes } from '@angular/router';
 import { NguCarouselModule } from '@ngu/carousel';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { InfoComponent } from './info/info.component';
@@ -48,7 +49,9 @@ const appRoutes: Routes = [
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
