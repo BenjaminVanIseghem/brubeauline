@@ -19,6 +19,17 @@
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Taal
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <button class="dropdown-item" type= "button" (click)="changeToDutch()">Nederlands</button>
+          <button class="dropdown-item" type= "button" (click)="changeToEnglish()">English</button>
+          <button class="dropdown-item" type= "button" (click)="changeToFrench()">Français</button>
+          <button class="dropdown-item" type= "button" (click)="changeToGerman()">Deutsch</button>
+        </div>
+      </li>
     </ul>
 </nav>
 
