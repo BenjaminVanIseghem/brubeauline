@@ -1,4 +1,11 @@
 {
-    "HELLO": "Welkom op de pagina!",
-    "works": "Deze pagina werkt"
+    "NAV-INFO": "B&B",
+    "NAV-BRUGGE": "Brugge",
+    "NAV-FOTOS": "Foto's",
+    "NAV-RECENSIES": "Getuigenissen",
+    "NAV-CONTACT": "Contact",
+    "NAV-TAAL": "Taal",
+    "INFO-WELCOME": "Krista heet u van harte welkom in haar karaktervolle woning, daterende van 1946.",
+    "INFO-LIGGING": "De rustige ligging, op twee kilometer van het historisch centrum van Brugge, met gratis privéparking en gratis gebruik van fietsen is dé locatie om Brugge, het Brugse Ommeland of de Belgische Kust te bezoeken.",
+    "INFO-BEDANKT": "Alvast bedankt voor uw interesse !"
 }

@@ -1,4 +1,11 @@
 {
-    "HELLO": "Welcome on this page!",
-    "works": "This page works"
+    "NAV-INFO": "B&B",
+    "NAV-BRUGGE": "Bruges",
+    "NAV-FOTOS": "Photos",
+    "NAV-RECENSIES": "Testimonials",
+    "NAV-CONTACT": "Contact",
+    "NAV-TAAL": "Language",
+    "INFO-WELCOME": "Krista is pleased to welcome you in her typical house dating from 1946. ",
+    "INFO-LIGGING": "Its quiet location, at two kilometers from the historical centre of Bruges, with private parking space and free use of bicycles, make it an ideal location to visit Bruges, its surroundings or the Belgian coast.",
+    "INFO-BEDANKT": "Thank you for your interest!"
 }

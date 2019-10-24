@@ -1,4 +1,11 @@
 {
-    "HELLO": "Ik kan geen Duits",
-    "works": "Diese zeite ist cool"
+    "NAV-INFO": "B&B",
+    "NAV-BRUGGE": "Brügge",
+    "NAV-FOTOS": "Fotos",
+    "NAV-RECENSIES": "Bewertungen",
+    "NAV-CONTACT": "Kontakt",
+    "NAV-TAAL": "Sprache",
+    "INFO-WELCOME": "Krista begrüße Sie herzlich in ihrem authentischen Haus aus dem Jahre 1946.",
+    "INFO-LIGGING": "Mit seiner ruhigen Lage zwei Kilometer vom historischen Zentrum von Brügge entfernt, mit kostenlosem Privatparkplatz und mit kostenloser Fahrradnutzung ist es der ideale Ausgangspunkt, um Brügge, seine Umgebung und die belgische Küste zu besuchen.",
+    "INFO-BEDANKT": "Herzlichen Dank für Ihr Interesse!"
 }

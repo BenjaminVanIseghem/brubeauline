@@ -1,4 +1,11 @@
 {
-    "HELLO": "Bienvenue sur cette page!",
-    "works": "La page marche"
+    "NAV-INFO": "B&B",
+    "NAV-BRUGGE": "Bruges",
+    "NAV-FOTOS": "Photos",
+    "NAV-RECENSIES": "Critiques",
+    "NAV-CONTACT": "Contact",
+    "NAV-TAAL": "Langue",
+    "INFO-WELCOME": "Krista vous souhait le(s) bienvenu(s) dans leur maison de caractère datant de 1946.",
+    "INFO-LIGGING": "L'emplacement calme, à deux kilomètres du centre historique de Bruges, avec parking privé gratuit et des bicyclettes gratuitement à votre disposition: voici le lieu charmant pour entamer votre visite de Bruges et ses alentours ('Brugse Ommeland') ou le littoral belge.",
+    "INFO-BEDANKT": "Au plaisir de vous accueillir chaleureusement, merci de votre intérêt !"
 }

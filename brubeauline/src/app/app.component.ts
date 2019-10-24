@@ -35,4 +35,12 @@ export class AppComponent {
   changeToGerman() {
     this.ts.use('de');
   }
+
+  changeToItalian() {
+    this.ts.use('it');
+  }
+
+  changeToSpanish() {
+    this.ts.use('es');
+  }
 }
